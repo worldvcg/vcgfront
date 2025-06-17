@@ -12019,4 +12019,8 @@ p {
   align-items: center;
   justify-content: center;
   margin-top: -5px;
+}
+
+.text-justify {
+  text-align: justify;
 }/*# sourceMappingURL=main.css.map */

@@ -35,7 +35,7 @@ p{
     }
     
     div{//positione les élement devant le ::before
-        
+
         position:relative;
     }
 
@@ -50,4 +50,8 @@ p{
     }
     
    
+}
+
+.text-justify{
+    text-align: justify;
 }
