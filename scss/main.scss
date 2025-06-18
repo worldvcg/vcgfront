@@ -6,7 +6,7 @@ html{
     min-height: 100%;;
 }
 
-main{margin-bottom: 250px;}
+main{margin-bottom: 270px;}
 
 footer.footer{
     padding: 15px;
@@ -61,7 +61,8 @@ p{
     position:relative;
 
     &:hover{
-        .titre-image{
+        .titre-image,
+        .action-image-buttons{
             opacity: 1;
         }
          img{
@@ -78,8 +79,21 @@ p{
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        opacity: 30%;
+        opacity: 0%;
         transition: all 0.3s;
+    }
+
+    .action-image-buttons{
+        position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0%;
+    transition: all 0.3s;
+
     }
 }
 
@@ -88,3 +102,5 @@ p{
         color: $primary;
     }
 
+    
+    
